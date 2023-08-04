@@ -1,0 +1,552 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "txn_tm_nanos",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txn_tmsp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "seq_nbr",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_px_qte_ccy",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_ctrt_prd_cd",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_isin_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_sym",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_prod_typ",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_und_prod_typ",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_mrkt_seg_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "last_trd_agsr_side_ind",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "last_trd_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_qty_msr_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "vol_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sesn_hi_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sesn_hi_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sesn_lo_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sesn_lo_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "last_trd_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "last_trd_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "mrkt_dta_rpt_typ",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "impd_ind",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_src",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_1_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_1_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_1_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_1_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_1_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_1_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_1_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_1_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_2_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_2_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_2_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_2_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_2_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_2_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_2_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_2_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_3_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_3_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_3_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_3_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_3_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_3_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_3_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_3_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_4_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_4_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_4_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_4_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_4_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_4_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_4_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_4_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_5_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_5_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_5_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_5_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_5_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_5_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_5_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_5_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_6_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_6_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_6_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_6_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_6_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_6_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_6_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_6_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_7_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_7_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_7_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_7_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_7_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_7_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_7_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_7_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_8_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_8_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_8_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_8_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_8_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_8_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_8_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_8_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_9_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_9_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_9_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_9_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_9_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_9_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_9_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_9_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_10_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_10_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_10_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ask_lvl_10_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_10_px_dec",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_10_px_fmt",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_10_qty",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bid_lvl_10_ord_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_prod_cd",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "hour",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "trdg_sts",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txn_tmsp_nanos",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cyc_dt",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_exch_mrkt_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inst_ast_sub_clas",
+    "type": "STRING"
+  }
+]
