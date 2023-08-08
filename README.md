@@ -26,7 +26,6 @@ Deployment: Once testing is complete, you can deploy the transformer service and
 
 Scaling Considerations: Depending on the volume of events and the complexity of the transformation logic, you may need to consider scaling the transformer service to handle the load. This may require additional infrastructure and configuration.
 
-Update Documentation: Ensure that all related documentation is updated to reflect the new architecture and flow of information.
 
 
 `Pub-Sub ---> Transformer ---> DB-Writer ---> BigTable-DB`
