@@ -2,10 +2,12 @@
 
 ![image](https://github.com/ypenn21/timeseries/assets/6451406/8033c59b-664e-4972-b79b-256e2c3e6a11)
 
+Architecture in Slides: https://docs.google.com/presentation/d/13rTYjMldWWJLFahSa9YHZlR1NLbRvBQHr4dhZyIWBjQ/edit#slide=id.g1e547da9be2_0_451
 
-1. pub sub 
-2. tickerstream service
-3. tickerstream persistence service
+1. populate pub sub service with ticker msgs
+2. tickerstream service transform pub sub to orderbook
+3. tickerstream service orderbook to pubsub msgs
+4. tickerstream persistence service persists pub sub msgs to bigTable
 
 
 Adding an intermediate service, like a transformer, between the publisher-subscriber (pub-sub) and a database writer (db-writer) in an event-driven architecture requires a series of changes to the existing workflow. Here's a step-by-step guide on how to make those changes:
