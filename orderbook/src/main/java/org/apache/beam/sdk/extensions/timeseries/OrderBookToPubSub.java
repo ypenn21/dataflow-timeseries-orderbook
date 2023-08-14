@@ -70,10 +70,9 @@ public class OrderBookToPubSub {
     }
     
     /**
-     * The primary execution method which applies the ParDo transformations
-     * * Reads the BigQuery TableRows using the Storage Read API (via withMethod(DIRECT_READ))
-     * * Converts the TableRow elements into PubSub messages with the current timestamp as the message key
-     * * Writes the PubSub messages to the specified topic
+     * 
+     * * Read Messages from pubsub topic, Convert PubsubMessage To Tick pojo, Convert Tick To NaiveOrderBook,
+     * * Convert NaiveOrderBook To PubsubMessage, & Write to Pubsub
      * 
      * @param options extends GcpOptions
      * @return the PipelineResult object from running our BQ to PubSub pipeline
